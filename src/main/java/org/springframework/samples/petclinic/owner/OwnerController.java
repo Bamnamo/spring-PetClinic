@@ -43,6 +43,8 @@ class OwnerController {
 	private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners/createOrUpdateOwnerForm";
 
 	@Autowired
+	private PetRepository petRepository;
+	@Autowired
 	private OwnerRepository owners;
 	@Autowired
 	private VisitRepository visits;
