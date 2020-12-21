@@ -1,6 +1,6 @@
 package org.springframework.samples.petclinic.proxy;
 
-public class  Store {
+public class Store {
 	Payment payment;
 
 	public Store(Payment payment) {
